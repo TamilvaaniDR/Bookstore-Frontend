@@ -1,0 +1,21 @@
+.children-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .book-list {
+    margin-top: 20px;
+  }
+  
+  .book-item {
+    margin-bottom: 15px;
+  }
+  
+  .book-item h3 {
+    color: #333;
+  }
+  
+  .book-item p {
+    color: #555;
+  }
+  

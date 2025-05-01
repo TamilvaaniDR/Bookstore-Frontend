@@ -1,0 +1,158 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  .home-page {
+    text-align: center;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 30px;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header Section */
+  .header {
+    background-color: #f8f8f8;
+    padding: 50px 30px;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .header p {
+    font-size: 20px;
+    font-style: italic;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  /* Get Started Button Styling */
+  .get-started-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .get-started-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .get-started-btn:active {
+    transform: scale(1);
+  }
+  
+  /* Categories Section */
+  .categories {
+    margin: 50px 0;
+    padding: 0 20px;
+  }
+  
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin: 20px;
+  }
+  
+  .category-card {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    text-align: center;
+  }
+  
+  .category-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .category-card h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .category-card p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* Hover Effect */
+  .category-card:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Footer Section */
+  .footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .footer p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 300;
+  }
+  
